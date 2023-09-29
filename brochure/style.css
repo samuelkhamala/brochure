@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+  }
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 30px;
+  }
+.navbar {
+    background: rgb(219, 75, 8);
+    color: #fff;
+    height: 60px;
+  }
+  
+  .navbar .logo {
+    font-size: x-large;
+    font-weight: bold;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: rgb(230, 155, 120);
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar ul li {
+    margin-left: 20px;
+  }
+
+  .header {
+    background-color: rgb(219, 75, 8);
+    color: #fff;
+    min-height: 400px;
+    margin-top: 90px;
+  }
+  
+  .header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+  
+  .header img {
+    max-width: 400px;
+    padding-top: 30px;
+  }
+  
+  .header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+#about{
+    padding: 80px 0;
+    color: black;
+}
+#about .sub-title1{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 300;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+hr{
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-col-1{
+    flex-basis: 35%;
+    /* background-color: white; */
+    box-shadow: 2px 2px rgb(219, 75, 8);
+}
+.about-col-1 img{
+    width: 100%;
+}
+.about-col-2{
+    flex-basis: 60%;
+    text-align: left;
+    background-color: white;
+    box-shadow: 2px 2px rgb(219, 75, 8);
+}
+.sub-title{
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 59px;
+    color: rgb(219, 75, 8);
+}
+.us{
+    display: flex;
+    margin-left: 10px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
